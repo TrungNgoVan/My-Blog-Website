@@ -103,12 +103,12 @@ h4{
     outline: none;
     border-radius: 30px;
 }
-.newslatter form input:last-child{
+.newslatter form a{
     position: absolute;
     display: inline-block;
     outline: none;
     border: none;
-    padding: 10px 30px;
+    padding: 10px 25px;
     border-radius: 30px;
     background-color: #f9004d;
     color: white;
@@ -116,8 +116,10 @@ h4{
     top: 6px;
     right: 6px;
     transition: transform .4s;
+    text-decoration: none;
+    font-weight: bold;
 }
-.newslatter form input:last-child:hover{
+.newslatter form a:hover{
     transform: scale(1.1);
 }
 
